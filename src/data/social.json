@@ -1,0 +1,7 @@
+[
+  { "name": "Email", "url": "mailto:crui@usc.edu", "icon": "email" },
+  { "name": "LinkedIn", "url": "https://www.linkedin.com/in/camellia-rui-787ba7295/", "icon": "linkedin" },
+  { "name": "Twitter", "url": "https://twitter.com/camellia_rui", "icon": "twitter" },
+  { "name": "ResearchGate", "url": "https://www.researchgate.net/profile/Camellia_Rui", "icon": "researchgate" },
+  { "name": "CV", "url": "/cv.pdf", "icon": "cv" }
+]
