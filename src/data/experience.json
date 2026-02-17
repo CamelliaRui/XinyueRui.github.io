@@ -1,5 +1,50 @@
 [
   {
+    "title": "PhD Agent — AI-Powered Research Assistant",
+    "organization": "University of Southern California",
+    "organizationUrl": "https://www.usc.edu/",
+    "location": "Los Angeles, California",
+    "startDate": "Sep 2025",
+    "endDate": "Present",
+    "bullets": [
+      "Built an LLM agent with Claude Code SDK, integrating GitLab MCP to summarize weekly commits and track project progress",
+      "Integrated with Slack MCP and Zotero MCP to retrieve research papers, store references, and generate automatically structured meeting agendas contextualized by the prior week's work",
+      "Extended the agent with a Retrieval-Augmented Generation (RAG) system using LangChain, Chroma, and OpenAI API to answer domain-specific questions from papers",
+      "Developed an AI-powered conference session recommender using RAG and vector similarity search to automatically filter and rank 500+ abstracts against personalized research interests, achieving 92.3% precision (F1: 0.96) validated through systematic human evaluation",
+      "Designed an end-to-end agent pipeline combining multi-platform MCP APIs, RAG workflows, and conversational interfaces for a research assistant that serves PhD researchers"
+    ]
+  },
+  {
+    "title": "ML Research Intern — AI for Biology",
+    "organization": "Genentech, Inc.",
+    "organizationUrl": "https://www.gene.com/",
+    "location": "South San Francisco, CA",
+    "startDate": "May 2025",
+    "endDate": "Aug 2025",
+    "bullets": [
+      "Conducted research and developed a deep learning Variational Autoencoder (VAE) model to model gene regulatory networks in a team of four using PyTorch",
+      "Engineered a model prototype from scratch using JAX and identified identifiability and misparametrization issues in the existing codebase",
+      "Reduced overall model loss from 6.7 × 10⁻² to 1 × 10⁻⁷ and improved inference accuracy by 19.7%",
+      "Successfully implemented the knockout procedure within the VAE model to denoise real biological signals while controlling the false discovery rate (FDR) under 10%",
+      "Managed reproducible code through GitLab using Merge Request-based Model Context Protocol (MCP), integrating open collaboration and clear communication across the team"
+    ]
+  },
+  {
+    "title": "Research Assistant — SCFM",
+    "organization": "Prof. Nicholas Mancuso & Prof. Steven Gazal",
+    "organizationUrl": "https://www.mancusolab.com",
+    "location": "Los Angeles, California",
+    "startDate": "Mar 2024",
+    "endDate": "Present",
+    "bullets": [
+      "Developed a machine learning method SCFM that identifies gene-to-disease associations on the largest-scale single-cell RNA-seq data (4.1GB), utilizing coordinate ascent variational inference",
+      "Achieved an average of 32% improvement in sensitivity and discovered an average of 15% more genetic variants when benchmarking against the existing method through extensive simulations",
+      "Built a new Python package implementing SCFM framework with JAX, leveraging big data technologies and HPC clusters to achieve ultra-fast computing speed with an average inference time 15x faster than the existing method (1.3s vs 20s)",
+      "Enabled robustness on calibration and model misspecification over 4000+ simulation scenarios and benchmarked the method against baseline and other published models",
+      "Accepted as the first-author abstract to a top-tier conference American Society of Human Genetics, demonstrating strong communication and publication skills"
+    ]
+  },
+  {
     "title": "Research Assistant — PerturbVI",
     "organization": "Prof. Nicholas Mancuso",
     "organizationUrl": "https://www.mancusolab.com/",
@@ -7,24 +52,11 @@
     "startDate": "Mar 2024",
     "endDate": "Present",
     "bullets": [
-      "Helped developing a machine learning method PerturbVI that discovered gene regulatory networks with CRISPR perturbation data and single-cell RNA-seq data using Variational Inference and Jax in a team of three",
+      "Developed a machine learning method PerturbVI that discovered gene regulatory networks with CRISPR perturbation data and single-cell RNA-seq data using Variational Inference and JAX in a team of three",
       "Simulated model misspecification of latent variables using Python and improved 6.5% sensitivity compared to existing methods",
-      "Enabled ultra-fast inference speed with an average convergence time of 70x faster on the largest scale perturbation matrix (310,385 x 8563) than the existing method"
-    ]
-  },
-  {
-    "title": "Research Assistant — Single Cell Fine Mapping",
-    "organization": "Prof. Nicholas Mancuso & Prof. Steven Gazal",
-    "organizationUrl": "https://www.mancusolab.com",
-    "location": "Los Angeles, California",
-    "startDate": "Aug 2022",
-    "endDate": "Present",
-    "bullets": [
-      "Developed a machine learning method SCFM that identifies gene-to-disease associations on the largest-scale single-cell RNA-seq data (4.1GB), utilizing coordinate ascent variational inference",
-      "Achieved an average of 32% improvement in sensitivity and discovered an average of 15% more genetic variants when benchmarking against the existing method",
-      "Built a new Python package implementing SCFM framework with Jax for ultra-fast computing (15x faster, 1.3s vs 20s)",
-      "Enabled robustness on calibration and model misspecification over 4000+ simulation scenarios",
-      "Accepted as the first-author abstract to American Society of Human Genetics"
+      "Enabled ultra-fast inference speed with an average convergence time of 70x faster on the largest scale perturbation matrix (310,385 × 8,563) than the existing method",
+      "Optimized core algorithms, improving statistical inference by reducing computation time of false signal rate by 4x and significantly accelerating large-scale genetic analysis",
+      "Collaborated with team members to enhance model initialization, decreasing compiling time from 3.5 minutes to 1 minute and improving overall productivity"
     ]
   },
   {

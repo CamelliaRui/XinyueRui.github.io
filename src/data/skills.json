@@ -1,7 +1,22 @@
 [
   { "name": "Python" },
+  { "name": "PyTorch" },
+  { "name": "JAX" },
+  { "name": "Deep Learning" },
+  { "name": "LLM Agents" },
+  { "name": "Variational Inference" },
+  { "name": "RAG" },
+  { "name": "Representation Learning" },
+  { "name": "Generative Modeling" },
+  { "name": "NLP" },
+  { "name": "Statistical Inference" },
   { "name": "R" },
-  { "name": "Statistics" },
-  { "name": "Machine Learning" },
-  { "name": "Jax" }
+  { "name": "Scikit-learn" },
+  { "name": "Keras" },
+  { "name": "Claude Code SDK" },
+  { "name": "OpenAI SDK" },
+  { "name": "LangChain" },
+  { "name": "HPC / Slurm" },
+  { "name": "Git" },
+  { "name": "Docker" }
 ]

@@ -1,8 +1,32 @@
 [
   {
-    "title": "Worldwide imputation analysis",
-    "authors": "Rui X, et al.",
-    "venue": "American Journal of Human Genetics (AJHG)",
+    "title": "scFM: an efficient statistical fine-mapping approach for eQTLs using large-scale single-cell data",
+    "authors": "Rui X, et al. (1st author)",
+    "venue": "ASHG 2024 Abstract",
+    "year": 2024,
+    "url": "",
+    "doi": ""
+  },
+  {
+    "title": "perturbVI: A Scalable Latent Factor Model to Infer Genetic Regulatory Modules through CRISPR Perturbation Data",
+    "authors": "2nd author",
+    "venue": "In preparation",
+    "year": 2025,
+    "url": "",
+    "doi": ""
+  },
+  {
+    "title": "Estimating heritability explained by local ancestry and evaluating stratification bias in admixture mapping from summary statistics",
+    "authors": "Contributing author",
+    "venue": "American Journal of Human Genetics",
+    "year": 2024,
+    "url": "",
+    "doi": ""
+  },
+  {
+    "title": "A global view of disparity in imputation resources for conducting genetic studies in diverse populations",
+    "authors": "Rui X, et al. (2nd author)",
+    "venue": "American Journal of Human Genetics",
     "year": 2022,
     "url": "",
     "doi": ""
