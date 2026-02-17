@@ -1,0 +1,30 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  date: Date;
+  tags: string[];
+}
+
+const { title, date, tags } = Astro.props;
+---
+<BaseLayout title={`${title} — Camellia Rui`}>
+  <article class="pt-28 pb-16 max-w-[680px] mx-auto px-6">
+    <a href="/blog/" class="text-sm text-text-secondary hover:text-accent transition-colors mb-8 inline-block">
+      &larr; Back to blog
+    </a>
+    <h1 class="text-3xl font-bold mt-4 mb-3">{title}</h1>
+    <div class="flex items-center gap-3 text-sm text-text-secondary mb-8">
+      <time>{date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+      <div class="flex gap-2">
+        {tags.map((tag) => (
+          <span class="px-2 py-0.5 text-xs bg-accent-light text-accent rounded-full">{tag}</span>
+        ))}
+      </div>
+    </div>
+    <div class="prose prose-lg max-w-none prose-headings:text-text prose-a:text-accent prose-a:no-underline hover:prose-a:text-accent-hover prose-code:font-mono prose-code:text-sm prose-pre:bg-surface prose-pre:border prose-pre:border-border">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
