@@ -1,0 +1,15 @@
+---
+import skills from '../data/skills.json';
+---
+<section id="skills" class="py-16">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-2xl font-semibold mb-6">Skills</h2>
+    <div class="flex flex-wrap gap-3">
+      {skills.map((skill: { name: string }) => (
+        <span class="px-4 py-2 bg-accent-light text-accent text-sm font-medium rounded-full">
+          {skill.name}
+        </span>
+      ))}
+    </div>
+  </div>
+</section>
