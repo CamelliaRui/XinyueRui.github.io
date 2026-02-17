@@ -58,19 +58,5 @@
       "Optimized core algorithms, improving statistical inference by reducing computation time of false signal rate by 4x and significantly accelerating large-scale genetic analysis",
       "Collaborated with team members to enhance model initialization, decreasing compiling time from 3.5 minutes to 1 minute and improving overall productivity"
     ]
-  },
-  {
-    "title": "Research Assistant — Worldwide Imputation Analysis",
-    "organization": "Prof. Charleston Chiang",
-    "organizationUrl": "https://chianglab.usc.edu/",
-    "location": "Los Angeles, CA",
-    "startDate": "May 2020",
-    "endDate": "May 2022",
-    "bullets": [
-      "Built a statistical analysis pipeline using Python and R for accessing genotype imputation quality over 123 populations",
-      "Discovered that imputation quality fell short 6.5%–42% in imputation R² among minority populations compared to European controls",
-      "Awarded Provost Research Fellowship twice (fall 2020 and fall 2021)",
-      "Published in top tier journal (AJHG, IF=12.6)"
-    ]
   }
 ]
