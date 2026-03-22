@@ -7,7 +7,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 export default defineConfig({
-  site: 'https://camellia-rui.pages.dev',
+  site: 'https://personalwebsite.xrui0419.workers.dev',
   output: 'static',
   vite: {
     plugins: [tailwindcss()],
