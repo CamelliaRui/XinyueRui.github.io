@@ -1,0 +1,18 @@
+---
+const currentPath = Astro.url.pathname;
+---
+<nav class="fixed top-0 w-full bg-bg/80 backdrop-blur-sm border-b border-border z-50">
+  <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="/" class="text-lg font-semibold text-text hover:text-accent transition-colors">
+      Camellia Rui
+    </a>
+    <div class="flex items-center gap-6">
+      <a href="/blog" class:list={["text-sm hover:text-accent transition-colors", currentPath.startsWith('/blog') ? 'text-accent' : 'text-text-secondary']}>
+        Blog
+      </a>
+      <a href="/cv.pdf" class="text-sm text-text-secondary hover:text-accent transition-colors">
+        CV
+      </a>
+    </div>
+  </div>
+</nav>

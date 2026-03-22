@@ -1,0 +1,39 @@
+{
+  "Core Competencies": [
+    "Deep Generative Modeling",
+    "Representation Learning",
+    "Variational Autoencoder",
+    "LLM Agents",
+    "Machine Learning",
+    "Deep Learning",
+    "Transformer",
+    "Statistical Inference",
+    "NLP",
+    "Big Data Technologies",
+    "RAG"
+  ],
+  "Languages": [
+    "Python",
+    "R",
+    "SQL",
+    "Bash",
+    "LaTeX"
+  ],
+  "Libraries & Frameworks": [
+    "JAX",
+    "PyTorch",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas",
+    "SciPy",
+    "Keras",
+    "TensorFlow",
+    "Spark",
+    "Dask",
+    "LangChain",
+    "Chroma",
+    "OpenAI SDK",
+    "Claude Code SDK",
+    "MCP"
+  ]
+}
