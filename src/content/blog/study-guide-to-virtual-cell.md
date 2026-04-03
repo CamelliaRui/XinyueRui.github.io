@@ -19,4 +19,10 @@ Before diving into foundation models, it helps to understand the regulatory geno
 - [RNA splicing is a primary link between genetic variation and disease](https://doi.org/10.1126/science.aad9417) — Li et al. (2016), *Science*. Identifies splicing QTLs as major contributors to complex traits, on par with expression QTLs. Introduces the LeafCutter method.
 - [Long-range enhancer–promoter contacts in gene expression control](https://doi.org/10.1038/s41576-019-0128-0) — Schoenfelder & Fraser (2019), *Nature Reviews Genetics*. Reviews how 3D genome architecture facilitates enhancer–promoter communication over large genomic distances.
 
+## Early Generative & Perturbation Attempts (2019 – 2021)
+
+A key step toward virtual cells was learning to *predict* how cells respond to perturbations — before we had large foundation models. These early works showed that generative models, especially variational autoencoders, could capture meaningful biological variation in latent space.
+
+- [scGen predicts single-cell perturbation responses](https://doi.org/10.1038/s41592-019-0494-8) — Lotfollahi, Wolf & Theis (2019), *Nature Methods*. Pioneering work that uses a variational autoencoder (VAE) combined with latent space vector arithmetics to predict single-cell perturbation responses. By learning a shared latent representation of cells, scGen can extrapolate how unseen cell types would respond to a perturbation — without requiring matched perturbed/unperturbed data for every cell type. Demonstrated cross-species transfer (mouse → human) and out-of-sample cell type prediction.
+
 *Under construction...*
