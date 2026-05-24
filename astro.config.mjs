@@ -6,15 +6,22 @@ import sitemap from '@astrojs/sitemap';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
+import cloudflare from "@astrojs/cloudflare";
+
 export default defineConfig({
   site: 'https://personalwebsite.xrui0419.workers.dev',
   output: 'static',
+
   vite: {
     plugins: [tailwindcss()],
   },
+
   integrations: [mdx(), sitemap()],
+
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex],
   },
+
+  adapter: cloudflare()
 });
