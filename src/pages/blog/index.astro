@@ -27,7 +27,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     <div class="space-y-10">
       {posts.map((post) => (
         <article>
-          <a href={`/blog/${post.id.replace(/\.mdx?$/, '')}/`} class="group">
+          <a href={`/blog/${post.id}/`} class="group">
             <h2 class="text-xl font-semibold group-hover:text-accent transition-colors">
               {post.data.title}
             </h2>
