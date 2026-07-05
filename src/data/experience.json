@@ -1,19 +1,4 @@
 [
-{
-    "title": "PhD Agent — AI-Powered Research Assistant",
-    "organization": "University of Southern California",
-    "organizationUrl": "https://www.usc.edu/",
-    "location": "Los Angeles, California",
-    "startDate": "Sep 2025",
-    "endDate": "Present",
-    "bullets": [
-      "Built an LLM agent with Claude Code SDK, integrating GitLab MCP to summarize weekly commits and track project progress",
-      "Integrated with Slack MCP and Zotero MCP to retrieve research papers, store references, and generate automatically structured meeting agendas contextualized by the prior week's work",
-      "Extended the agent with a Retrieval-Augmented Generation (RAG) system using LangChain, Chroma, and OpenAI API to answer domain-specific questions from papers",
-      "Developed an AI-powered conference session recommender using RAG and vector similarity search to automatically filter and rank 500+ abstracts against personalized research interests, achieving 92.3% precision (F1: 0.96) validated through systematic human evaluation",
-      "Designed an end-to-end agent pipeline combining multi-platform MCP APIs, RAG workflows, and conversational interfaces for a research assistant that serves PhD researchers"
-    ]
-  },
   {
     "title": "ML Research Intern — AI for Biology",
     "organization": "Genentech, Inc.",
